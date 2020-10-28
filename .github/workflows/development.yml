@@ -5,6 +5,8 @@ on:
     branches:
     - dev
   pull_request:
+    branches:
+    - dev
 
 env:
   TERRAFORM_VERSION: 0.13.5
